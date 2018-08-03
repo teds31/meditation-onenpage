@@ -1,0 +1,19 @@
+.navbar {
+    background: transparent !important;
+
+    &.active {
+        background: #2b2930 !important;
+    }
+
+    .navbar-brand {
+        color: #fac811;
+        font-size: 28px;
+        border: 1px solid #e1c575;
+        padding: 0px 14px;
+        margin: 10px;
+    }
+
+    .nav-link {
+        color: #ffffff !important;
+    }
+}

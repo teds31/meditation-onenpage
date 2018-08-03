@@ -1,0 +1,81 @@
+.footer-container {
+    background: #222222;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+
+    .footer-section {
+        .title {
+            border-left: 2px solid #ffde00;
+            color: #ffffff;
+            padding-left: 10px;
+            font-size: 17px;
+            margin-bottom: 24px;
+        }
+
+        p, a {
+            color: #6f6f6f;
+            font-size: 13px;
+        }
+
+        li {
+            padding: 12px 0;
+            border-bottom: 1px solid #969696;
+
+            a {
+                text-transform: uppercase;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        span.badge {
+            background: transparent;
+            border: 1px solid #6f6f6f;
+            color: #6f6f6f;
+            border-radius: 0;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+        }
+
+        form {
+            .form-control {
+                background: transparent;
+                border: 1px solid #383838;
+                font-size: 13px;
+            }
+
+            .subscribe-btn {
+                padding: 8px 10px;
+                background: #f0f0f0;
+                color: #6f6f6f;
+                font-size: 13px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
+
+.sub-footer {
+    background: #2a282f;
+    padding: 20px 10px;
+
+    span, a {
+        color: #6f6f6f;
+        font-size: 13px;
+    }
+    
+    span.icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        background: #ffffff;
+        font-size: 16px;
+        border-radius: 50%;
+        color: #000000;
+        margin-left: 6px;
+    }
+}

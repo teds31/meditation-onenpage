@@ -1,0 +1,38 @@
+.heading-container {
+    background: url('/img/meditationbackground.jpg') no-repeat center center;
+    background-size: cover;
+
+    .content-wrapper {
+        padding: 3rem 0 !important;
+
+        .title,
+        .subtitle {
+            color: #ffffff;
+        }
+    
+        .title {
+            font-size: 3.7rem;
+            margin-bottom: 35px;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+        }
+
+        .action-btn {
+            padding: 1rem;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            &.primary {
+                border: 1px solid #ffffff;
+                background: rgba(255, 255, 255, 0.15);
+            }
+
+            &.secondary {
+                background: #ffde00;
+            }
+        }
+    }
+}

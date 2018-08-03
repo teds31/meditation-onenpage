@@ -1,0 +1,202 @@
+.color-white {
+  color: #ffffff !important; }
+
+.main-content-wrapper {
+  margin-top: -72px;
+  position: relative;
+  background: url("../img/meditationbackground.jpg") no-repeat center;
+  background-size: 600px; }
+  .main-content-wrapper .btn {
+    margin: 30px; }
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000102; }
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #828798; }
+
+.section-divider {
+  border-top: 4px solid #fde23f;
+  width: 50px;
+  margin-bottom: 30px; }
+
+.card {
+  border: none;
+  border-radius: 0; }
+  .card .card-img {
+    border-radius: 0; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #837888; }
+
+.carousel-indicators .active {
+  background: #5b5f5d; }
+
+.navbar {
+  background: transparent !important; }
+  .navbar.active {
+    background: #2b2930 !important; }
+  .navbar .navbar-brand {
+    color: #fac811;
+    font-size: 28px;
+    border: 1px solid #e1c575;
+    padding: 0px 14px;
+    margin: 10px; }
+  .navbar .nav-link {
+    color: #ffffff !important; }
+
+.heading-container {
+  background: url("/img/meditationbackground.jpg") no-repeat center center;
+  background-size: cover; }
+  .heading-container .content-wrapper {
+    padding: 3rem 0 !important; }
+    .heading-container .content-wrapper .title,
+    .heading-container .content-wrapper .subtitle {
+      color: #ffffff; }
+    .heading-container .content-wrapper .title {
+      font-size: 3.7rem;
+      margin-bottom: 35px; }
+    .heading-container .content-wrapper .subtitle {
+      font-size: 1rem; }
+    .heading-container .content-wrapper .action-btn {
+      padding: 1rem;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase; }
+      .heading-container .content-wrapper .action-btn.primary {
+        border: 1px solid #ffffff;
+        background: rgba(255, 255, 255, 0.15); }
+      .heading-container .content-wrapper .action-btn.secondary {
+        background: #ffde00; }
+
+.about-container {
+  background: #f6f7f8; }
+
+.benefit-container {
+  background: #ffffff; }
+  .benefit-container .header-wrapper {
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+  .benefit-container .card {
+    height: 300px; }
+    .benefit-container .card .card-img {
+      height: 100%;
+      object-fit: cover; }
+    .benefit-container .card .card-img-overlay {
+      background: rgba(222, 184, 28, 0.75);
+      display: none !important; }
+    .benefit-container .card:hover .card-img-overlay {
+      display: flex !important; }
+
+.quote-container {
+  background: url("/img/skyscraperoverlay.jpg") no-repeat center center;
+  background-size: cover; }
+  .quote-container .quote-wrapper .quote {
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    color: #ffffff; }
+
+.testimonial-container {
+  background: #552658;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .testimonial-container .carousel-inner .carousel-item .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; }
+  .testimonial-container .carousel-inner .carousel-item .comment {
+    background: #682e65;
+    font-size: .9rem;
+    color: #e4e2e2;
+    border: none;
+    margin-bottom: 30px;
+    padding: 30px; }
+  .testimonial-container .carousel-inner .carousel-item .name {
+    color: #f5f5f5;
+    font-size: 1.1rem;
+    margin-bottom: 20px; }
+
+.contact-container {
+  background: #dda06e;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  .contact-container .header-wrapper {
+    margin-bottom: 40px; }
+  .contact-container .small-text {
+    font-size: .9rem;
+    color: #ececec; }
+  .contact-container form {
+    margin-top: 30px; }
+    .contact-container form .form-control {
+      background: #df955b;
+      border: 1px solid #d48445; }
+    .contact-container form .submit-btn {
+      background: #ffffff;
+      padding: 12px 28px;
+      color: #eaa773;
+      border: none;
+      outline: none; }
+
+.footer-container {
+  background: #222222;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+  .footer-container .footer-section .title {
+    border-left: 2px solid #ffde00;
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-bottom: 24px; }
+  .footer-container .footer-section p, .footer-container .footer-section a {
+    color: #6f6f6f;
+    font-size: 13px; }
+  .footer-container .footer-section li {
+    padding: 12px 0;
+    border-bottom: 1px solid #969696; }
+    .footer-container .footer-section li a {
+      text-transform: uppercase; }
+      .footer-container .footer-section li a:hover {
+        text-decoration: none; }
+  .footer-container .footer-section span.badge {
+    background: transparent;
+    border: 1px solid #6f6f6f;
+    color: #6f6f6f;
+    border-radius: 0;
+    padding: 10px 12px;
+    margin-bottom: 10px; }
+  .footer-container .footer-section form .form-control {
+    background: transparent;
+    border: 1px solid #383838;
+    font-size: 13px; }
+  .footer-container .footer-section form .subscribe-btn {
+    padding: 8px 10px;
+    background: #f0f0f0;
+    color: #6f6f6f;
+    font-size: 13px;
+    border: none;
+    outline: none; }
+
+.sub-footer {
+  background: #2a282f;
+  padding: 20px 10px; }
+  .sub-footer span, .sub-footer a {
+    color: #6f6f6f;
+    font-size: 13px; }
+  .sub-footer span.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #ffffff;
+    font-size: 16px;
+    border-radius: 50%;
+    color: #000000;
+    margin-left: 6px; }

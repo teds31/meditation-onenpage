@@ -1,0 +1,40 @@
+.color-white {
+    color: #ffffff !important;
+}
+.main-content-wrapper {
+    margin-top: -72px;
+    position: relative;
+    background: url("../img/meditationbackground.jpg")no-repeat center;
+    background-size: 600px;
+
+    .btn{
+      margin: 30px;
+    }
+}
+.section {
+    &-title {
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000102;
+    }
+    &-subtitle {
+        font-size: 1rem;
+        color: #828798;
+    }
+    &-divider {
+        border-top: 4px solid #fde23f;
+        width: 50px;
+        margin-bottom: 30px;
+    }
+}
+@import "./component/card";
+@import "./component/carousel";
+@import "./section/navbar";
+@import "./section/header";
+@import "./section/about";
+@import "./section/benefits";
+@import "./section/quote";
+@import "./section/testimonial";
+@import "./section/contact";
+@import "./section/footer";

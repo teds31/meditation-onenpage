@@ -1,0 +1,27 @@
+.benefit-container {
+    background: #ffffff;
+
+    .header-wrapper {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .card {
+        height: 300px;
+
+        .card-img {
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-img-overlay {
+            background: rgba(222, 184, 28, 0.75);
+            display: none !important;;
+        }
+
+        &:hover .card-img-overlay{
+            display: flex !important;
+        }
+    }
+
+}

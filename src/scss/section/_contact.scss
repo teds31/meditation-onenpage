@@ -1,0 +1,31 @@
+.contact-container {
+    background: #dda06e;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .header-wrapper {
+        margin-bottom: 40px
+    }
+
+    .small-text {
+        font-size: .9rem;
+        color: #ececec;
+    }
+
+    form {
+        margin-top: 30px;
+
+        .form-control {
+            background: #df955b;
+            border: 1px solid #d48445;
+        }
+
+        .submit-btn {
+            background: #ffffff;
+            padding: 12px 28px;
+            color: #eaa773;
+            border: none;
+            outline: none;
+        }
+    }
+}
