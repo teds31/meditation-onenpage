@@ -4,7 +4,7 @@
 .main-content-wrapper {
   margin-top: -72px;
   position: relative;
-  background: url("img/meditationbackground.jpg") no-repeat center;
+  background: url("../img/meditationbackground.jpg") no-repeat center;
   background-size: 600px; }
   .main-content-wrapper .btn {
     margin: 30px; }
