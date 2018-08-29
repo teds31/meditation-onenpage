@@ -53,7 +53,7 @@
     color: #ffffff !important; }
 
 .heading-container {
-  background: url("/img/meditationbackground.jpg") no-repeat center center;
+  background: url("../img/meditationbackground.jpg") no-repeat center center;
   background-size: cover; }
   .heading-container .content-wrapper {
     padding: 3rem 0 !important; }
@@ -96,7 +96,7 @@
       display: flex !important; }
 
 .quote-container {
-  background: url("/img/skyscraperoverlay.jpg") no-repeat center center;
+  background: url("../img/skyscraperoverlay.jpg") no-repeat center center;
   background-size: cover; }
   .quote-container .quote-wrapper .quote {
     font-size: 2.3rem;
